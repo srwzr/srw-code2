@@ -1,0 +1,44 @@
+.master{
+background-color:aqua;
+width: 1000px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+position: static;
+
+}
+
+.g1{
+border: 1px solid red;
+width: 200px;
+height: 300px;
+float: left;
+margin: 10px;
+}
+.g1 img{
+    width: 100%;
+    height:250px;
+    transition: all 1s;
+}
+.g1 img:hover{
+    width: 100%;
+    border-radius: 50px;
+    height:300px;
+    transition: all 1s;
+    opacity: 0.5;
+}
+.g1:hover{
+    border: 6px solid black;
+    height: 300px;
+    border-radius:50px;
+}
+
+.p1{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+  font-style:italic;
+  padding:0px 10px;
+
+
+}
